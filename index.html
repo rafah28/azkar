@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="index.css"> 
+<meta charset="utf-8">
+</head>
+<body>
+    <header>
+        <a class="bar1" onclick="appear();" ondblclick="exit();">
+            <img src="https://www.applebees.com/-/media/applebees/images/icons/icon-mobile-menu.png?h=221&la=en&w=250&hash=4BBA2148840E07A9988C0FE45A87A3C54C9B219C"></a>
+      <nav>
+        <ul id="list">
+        <li><a href="" class="item">الرئيسية</a></li> 
+        <li><a href="" class="item">اذكار الاستيقاظ</a></li>
+        <li><a href="" class="item">اذكار الصباح</a></li> 
+        <li><a href="" class="item">اذكار المساء</a></li> 
+        <li><a href="" class="item">اذكار النوم</a></li>
+        <li><a href="" class="item">يوم الجمعة</a></li>
+        <li><a href="" class="item">ادعية</a></li>
+        </ul>  
+      </nav>
+    </header>
+<div id="fom1">
+<form action="#" method="get"class="form1">
+     <h1>الاذكار</h1>
+     <fieldset id="one">
+         <legend  class="titl">تحميل</legend>
+      <label for="file">
+        اختيار الملف
+      </label>
+        <input type="file" name="file1">
+         <select>
+        <option>صورة</option>
+        <option>فيديو</option>
+        <option>صوت</option>
+        </select>
+        <input type="text" placeholder=" العنوان" id="tit1" >
+        <input type="date" id="date1">
+        </fieldset>
+    
+        <fieldset id="two">
+        <legend  class="titl">نشر</legend>
+        العنوان:<input type="text" placeholder=" العنوان" id="tit2"><br>
+        الوقت   :<input type="date"><br>
+        النص:  <textarea rows="6" cols="40" placeholder=" اكتب وصف الملف"></textarea>
+        </fieldset>
+        <input type="submit" value="Submit" id="input1">
+        <input type="reset" value="Reset" id="input2">
+        
+</form>
+</div>
+    
+
+    <script type="text/javascript">
+        function appear(){
+    document.getElementById("list").style.display= 'block';
+}
+        
+          function exit(){
+    document.getElementById("list").style.display= 'none';
+}
+    </script>
+      
+</body>
+    
+</html>
