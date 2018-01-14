@@ -1,0 +1,286 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: url(https://data.whicdn.com/images/25842141/original.jpg);
+    background-size: cover;
+    direction: rtl;
+}
+header{
+    width: 100%;
+    height: 60px;
+    background-color: azure;
+}
+header nav ul{
+    list-style-type: none;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+header nav ul li{
+    float: right;
+    margin: 10px;
+    
+}
+a:hover{
+    color: #d2a9aa;
+}
+a{
+    text-decoration: none;
+    color: #3c2a26;
+}
+#bar1{
+    display: none;
+}
+.form1{
+    width: 500px;
+    height: 510px;
+    background-color:rgba(255,255,255,0.5);
+    margin: 20px auto;
+    padding: 20px;
+    display: ;
+    border-radius: 4px;
+   
+}
+.form1 h1{
+    text-align: center;
+    color: #d2a9aa;
+}
+.form1 h1:hover{
+    color: gainsboro;
+}
+#one{
+    margin-top: 20px;
+    height: 110px;
+    padding: 5px;
+    
+}
+
+#one input{
+    margin: 10px;
+}
+#one:hover{
+      background-color:rgba(255,255,255,0.5);   
+    }
+#two{
+    height: 250px;
+     padding: 5px;
+}
+
+#two input{
+    margin: 10px;
+    width: 380px;
+}
+#two:hover{
+      background-color:rgba(255,255,255,0.5);   
+    }
+#two textarea{
+     margin: 10px;
+    width: 380px;
+}
+.titl{
+        text-align: center;
+    } 
+#input1{
+    width: 100px;
+    height: 50px;
+    float: right;
+    margin: 10px;
+    position: absolute;
+    right: 500px;
+    background-color: #d2a9aa;
+}
+#input2{
+    width: 100px;
+    height: 50px;
+    float: right;
+    margin: 10px;
+    position: absolute;
+    left: 500px;
+     background-color: #d2a9aa;
+}
+ #input1:hover{
+        background-color: azure;
+    }   
+    
+#input2:hover{
+        background-color: azure;
+    }  
+    
+select{
+    float: right;
+    position: absolute;
+    left: 405px;
+    top: 188px;
+    width: 180px;
+    height: 30px;
+    border-radius: 6px;
+}
+textarea{
+    border-radius: 6px;
+    padding: 3px;
+}
+ input{
+        border-radius: 8px;
+        height: 20px;
+        width: 350px;
+     padding: 3px;
+    }
+    input:hover{
+        background-color: azure;
+    }
+#tit2{
+    width: 340px;
+}
+
+#tit1{
+    width: 200px;
+}
+#date1{
+     width: 200px;
+}
+
+
+
+ 
+
+
+
+@media (max-width:450px){
+    body{
+        background:url(http://todoimagenes.co/wp-content/uploads/2017/07/xo-56-1-500x890.jpg) no-repeat;
+        background-size: cover;
+        direction: rtl;
+    } 
+    .bar1 img{
+        display: block;
+        width: 45px;
+        height: 45px;
+        float: right;
+        margin: 5px;
+        
+       
+    }
+    .bar1 img:hover{
+       opacity: 0.5; 
+    }
+header nav ul{
+    list-style-type: none;
+    position: absolute;
+    top: 60px;
+    right: 0px;
+    display: none;
+    
+    
+}
+
+     header nav ul li{
+        width: 382px;
+        height: 50px;
+        background-color:#fbc792;
+        padding:5px;
+        text-align: center;
+         margin: 0;
+         margin-top: 5px;
+        
+         
+    }
+    header nav ul li:hover{
+        background-color: azure;
+    }
+    
+    
+    input{
+        border-radius: 8px;
+        height: 20px;
+        width: 250px;
+    }
+    input:hover{
+        background-color: azure;
+    }
+    .form1{
+    width: 330px;
+    height: 620px;
+    background-color:rgba(255,255,255,0.5);
+    margin: 20px auto;
+    padding: 20px;
+    
+}
+    #one{
+    margin-top: 20px;
+    height: 160px;
+    border-radius: 6px;
+
+}
+ #one:hover{
+      background-color:rgba(255,255,255,0.5);   
+    }
+#one input{
+    margin: 10px;
+}
+
+#two{
+    height: 280px;
+     border-radius: 6px;
+     
+}
+#two:hover{
+      background-color:rgba(255,255,255,0.5);   
+    }
+    
+ #two input{
+    margin: 10px;
+    width: 250px;
+    color: beige;
+}
+#two textarea{
+     margin: 10px;
+    width: 250px;
+}   
+    .titl{
+        text-align: center;
+    }  
+ #input1{
+    width: 100px;
+    height: 50px;
+    float: right;
+    margin: 20px;
+    position: absolute;
+    right: 70px;
+     background-color: aliceblue;
+   
+}
+#input2{
+    width: 100px;
+    height: 50px;
+    float: right;
+    margin: 20px;
+    position: absolute;
+     left: 70px;
+    background-color: aliceblue;
+    }
+   
+    #input1:hover{
+        background-color: azure;
+    }   
+    
+#input2:hover{
+        background-color: azure;
+    }  
+    
+    
+    
+    
+    
+    
+    
+}
+
+
+
+
+
+
+
+
